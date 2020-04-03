@@ -20,7 +20,7 @@ echo "Commiting source data files to GitHub Reporting repository"
 # Commit and push changes
 git add .
 git commit --message "Automatic daily update of data"
-git push
+git push origin
 
 
 
