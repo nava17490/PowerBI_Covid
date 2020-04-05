@@ -11,6 +11,8 @@ Copy-Item "C:\GitHub\datasets\COVID 19\ccaa_covid19_casos_long.csv" -Destination
 Copy-Item "C:\GitHub\datasets\COVID 19\ccaa_covid19_hospitalizados_long.csv" -Destination "C:\GitHub\PowerBI_Covid\Sources"
 Copy-Item "C:\GitHub\datasets\COVID 19\ccaa_covid19_fallecidos_long.csv" -Destination "C:\GitHub\PowerBI_Covid\Sources"
 Copy-Item "C:\GitHub\datasets\COVID 19\ccaa_covid19_uci_long.csv" -Destination "C:\GitHub\PowerBI_Covid\Sources"
+Copy-Item "C:\GitHub\datasets\COVID 19\ccaa_camas_uci_2017.csv" -Destination "C:\GitHub\PowerBI_Covid\Sources"
+
 echo "Files already copied."
 
 # Change directory to Reporting repository
