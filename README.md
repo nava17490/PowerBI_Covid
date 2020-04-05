@@ -1,5 +1,7 @@
 # PowerBI_Covid
- This project uses data from other sources including https://github.com/datadista/datasets/tree/master/COVID%2019
+ This project uses data from other sources:
+ - Spain data from: https://github.com/datadista/datasets/tree/master/COVID%2019
+ - Rest of countries data from PDFs from https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov-China/situacionActual.htm stored in the Paises.xlsx file
 to provide a dashboard to analyse evolution of COVID 19 in several countries focussing on Spain 
 
 The content of the repository is the following one:
