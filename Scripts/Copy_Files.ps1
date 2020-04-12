@@ -1,7 +1,7 @@
 # Change directory to the git local repository of data from github
-cd "C:\GitHub\datasets\COVID 19"
+Set-Location 'C:\GitHub\datasets\COVID 19'
 
-echo "Retrieving source data files from GitHub Datasets repository"
+Write-Output "Retrieving source data files from GitHub Datasets repository"
 # git pull changes
 git pull
 
@@ -12,12 +12,14 @@ Copy-Item "C:\GitHub\datasets\COVID 19\ccaa_covid19_hospitalizados_long.csv" -De
 Copy-Item "C:\GitHub\datasets\COVID 19\ccaa_covid19_fallecidos_long.csv" -Destination "C:\GitHub\PowerBI_Covid\Sources"
 Copy-Item "C:\GitHub\datasets\COVID 19\ccaa_covid19_uci_long.csv" -Destination "C:\GitHub\PowerBI_Covid\Sources"
 
-echo "Files already copied."
+Write-Output "Files already copied."
+
+Start-Sleep -s 20
 
 # Change directory to Reporting repository
-cd "C:\GitHub\PowerBI_Covid"
+Set-Location 'C:\GitHub\PowerBI_Covid'
 
-echo "Commiting source data files to GitHub Reporting repository"
+Write-Output "Commiting source data files to GitHub Reporting repository"
 # Commit and push changes
 git add .
 git commit --message "Automatic daily update of data"
