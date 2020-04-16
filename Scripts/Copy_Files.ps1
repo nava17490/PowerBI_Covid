@@ -15,7 +15,7 @@ Copy-Item "C:\GitHub\datasets\COVID 19\ccaa_covid19_uci_long.csv" -Destination "
 Write-Output "Files already copied."
 
 Write-Output "Please refresh the report before committing"
-Start-Sleep -s 20
+Start-Sleep -s 60
 
 
 # Change directory to Reporting repository
