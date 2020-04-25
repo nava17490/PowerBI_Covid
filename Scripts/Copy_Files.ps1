@@ -11,8 +11,11 @@ Copy-Item "C:\GitHub\datasets\COVID 19\ccaa_covid19_casos_long.csv" -Destination
 Copy-Item "C:\GitHub\datasets\COVID 19\ccaa_covid19_hospitalizados_long.csv" -Destination "C:\GitHub\PowerBI_Covid\Sources"
 Copy-Item "C:\GitHub\datasets\COVID 19\ccaa_covid19_fallecidos_long.csv" -Destination "C:\GitHub\PowerBI_Covid\Sources"
 Copy-Item "C:\GitHub\datasets\COVID 19\ccaa_covid19_uci_long.csv" -Destination "C:\GitHub\PowerBI_Covid\Sources"
+Copy-Item "C:\GitHub\datasets\COVID 19\ccaa_covid19_confirmados_test_long.csv" -Destination "C:\GitHub\PowerBI_Covid\Sources"
+Copy-Item "C:\GitHub\datasets\COVID 19\ccaa_covid19_confirmados_pcr_long.csv" -Destination "C:\GitHub\PowerBI_Covid\Sources"
 
-Write-Output "Files already copied."
+
+Write-Output "Files copied successfully."
 
 Write-Output "Please refresh the report before committing"
 Start-Sleep -s 60
